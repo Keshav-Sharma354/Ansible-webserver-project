@@ -1,0 +1,8 @@
+sudo yum install epel-release -y
+sudo yum install ansible -y
+
+
+mkdir -p ansible-webserver/{playbooks,roles}
+cd ansible-webserver
+
+
